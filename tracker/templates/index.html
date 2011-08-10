@@ -120,6 +120,7 @@
                         var BOSH_SID = '{{sid}}';
                         var BOSH_JID = '{{jid}}';
                         var BOSH_RID = '{{rid}}';
+                        var BOSH_PWD = '{{pwd}}';
 
                         var BOSH_NODE = '{{node}}';
                         var DEBUG = true;
@@ -152,7 +153,8 @@
                                 connection = new Strophe.Connection(BOSH_SERVICE);
                                 connection.rawInput = log_msg_in;
                                 connection.rawOutput = log_msg_out;
-                                connection.attach(BOSH_JID,BOSH_SID,BOSH_RID,onConnect);
+                                //connection.attach(BOSH_JID,BOSH_SID,BOSH_RID,onConnect);
+                                connection.connect(BOSH_JID, BOSH_PWD, onConnect);
 
                         });
 
