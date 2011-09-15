@@ -21,8 +21,7 @@ from settings import TRACKER_RESOURCE_NAME, TRACKER_RESOURCE_SERVER,TRACKER_PROX
 
 
 class Command(NoArgsCommand):
-    args = '<poll_id poll_id ...>'
-    help = 'Closes the specified poll for voting'
+    help = 'Starts the XMPP Proxy'
 
     def handle_noargs(self, *args, **options):
         print "proxy startings"
