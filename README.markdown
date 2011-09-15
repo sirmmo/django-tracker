@@ -11,9 +11,9 @@ The system was tested on eJabberd and works seamlessly
 
 ##Installation
 set up your jabber server with three users: 
-*one publishing its positions 
-*one proxy
-*one viewer
+* one publishing its positions 
+* one proxy
+* one viewer
 
 ##Future plans
 in next versions the pre-binding should be added.
