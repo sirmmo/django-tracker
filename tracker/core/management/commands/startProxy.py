@@ -1,16 +1,3 @@
-'''
-Created on 09/ago/2011
-
-@author: N61j
-'''
-###STUFF HAPPENS HERE
-
-
-
-
-
-
-
 from django.core.management.base import NoArgsCommand, CommandError
 import sleekxmpp
 import datetime
