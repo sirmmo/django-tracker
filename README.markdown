@@ -16,7 +16,7 @@ set up your jabber server with three users:
 * one proxy
 * one viewer
 
-After that you edit your setup.py adding the usernames and passwords for the various users.
+After that you edit your settings.py adding the usernames and passwords for the various users.
 
 DONE! The system should work out of the box!
 
